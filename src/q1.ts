@@ -4,8 +4,19 @@
 // 輸出說明: 請回傳出現次數
 
 let calcWord = function (content: string, keyword: string) {
+    let ans = 0;
 
+
+    for (let i = 0; i < content.length; i++) {
+        console.log(content.charAt(i))
+        if (content.charAt(i) === keyword) {
+            ans += 1;
+        }
+    }
+
+    return ans;
 }
+
 
 console.log(calcWord('Abcdaaeafga', 'a')) // 4
 console.log(calcWord('Today is a good day!', 'o')) // 3

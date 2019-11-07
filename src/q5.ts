@@ -5,7 +5,15 @@
 // 輸出說明: 請直接console.log出是否合法
 
 let checkId = function (id: string) {
-
+    if (id === '123456') {
+        if(checkId >= 1*10; 2*9; 3*8; = 0){
+            console.log('合法');
+        }else{
+            console.log('不合法');
+        }
+    }else{
+        console.log('長度輸入錯誤');
+    }
 }
 
 checkId('425') // 不合法
